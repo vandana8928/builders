@@ -17430,8 +17430,8 @@ box-shadow:rgba(55, 54, 54, 0.28) 2px 2.732px 10px 2px;
     Footer Area
 -------------------------*/
 .footer-top-area {
-  padding-top: 50px;
-  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 30px;
   background-color: var(--black);
 }
 
@@ -18192,8 +18192,35 @@ justify-content: center;
   left: 16px;
 }
 
+.container{
+  position: relative;
+  
+}
+.container .E_image{
+  width: 100%;
+  height: 400;
 
-
+}
+.intro-text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.intro-text h1{
+  color: white;
+}
+.pr-list{
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  font-style: bold;
+}
+.explore-section {
+  color: white;
+}
 
 /* ----------------------------------------------------
     END

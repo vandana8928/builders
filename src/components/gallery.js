@@ -12,11 +12,11 @@ const Galleryv1 = () => {
     return <div>
         <Navbar />
         <PageHeader headertitle="Gallery" subheader=" Our Gallery" />
-        <Gallery m="https://www.pexels.com/photo/green-and-blue-peacock-feather-674010/"/>
         <Gallery/>
+      
         <hr></hr>
         <ProSlider/>
-       <G/>
+         <G/>
         <Footer />
     </div>
 }

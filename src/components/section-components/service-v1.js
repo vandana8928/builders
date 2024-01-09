@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+
 
 class ServiceV5 extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
+  
 
     return (
       <div className="ltn__service-area section-bg-1 pt-115 pb-70 go-top">

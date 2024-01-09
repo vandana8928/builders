@@ -25,9 +25,7 @@ class Gallery extends Component {
 							<h6>Hall</h6>
 							
 						</div>
-						<div className="btn-wrapper go-top">
-							<Link to="/portfolio-details" className="btn theme-btn-1 btn-effect-1 text-uppercase">Details</Link>
-						</div>
+					
 						</div>
 					</div>
 					</div>
@@ -41,9 +39,7 @@ class Gallery extends Component {
 							<h6>The luxury crib</h6>
 							
 						</div>
-						<div className="btn-wrapper go-top">
-							<Link to="/portfolio-details" className="btn theme-btn-1 btn-effect-1 text-uppercase">Details</Link>
-						</div>
+						
 						</div>
 					</div>
 					</div>
@@ -73,9 +69,7 @@ class Gallery extends Component {
 							<h6>constuction picture</h6>
 							
 						</div>
-						<div className="btn-wrapper go-top">
-							<Link to="/portfolio-details" className="btn theme-btn-1 btn-effect-1 text-uppercase">Details</Link>
-						</div>
+						
 						</div>
 					</div>
 					</div>
@@ -89,9 +83,7 @@ class Gallery extends Component {
 							<h6>The balcony picture</h6>
 							
 						</div>
-						<div className="btn-wrapper go-top">
-							<Link to="/portfolio-details" className="btn theme-btn-1 btn-effect-1 text-uppercase">Details</Link>
-						</div>
+						
 						</div>
 					</div>
 					</div>

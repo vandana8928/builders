@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+
 
 class FaqV1 extends Component {
   render() {
@@ -64,15 +64,17 @@ class FaqV1 extends Component {
                         <div className="ltn__video-img alignleft">
                           <img
                             src={publicUrl + "assets/img/bg/room.jpeg"}
-                            alt="video popup bg image"
+                            alt="video popup bg"
                           />
-                          <a
+                         {/*} <a
                             className="ltn__video-icon-2 ltn__video-icon-2-small ltn__video-icon-2-border----"
-                            href="https://www.youtube.com/watch?v=iCMQ7US1JEc&ab_channel=CodeEstate"
-                            data-rel="lightcase:myCollection"
-                          >
-                            <i className="fa fa-play" />
-                          </a>
+                            href="https://www.youtube.com/watch?v=I-wPSZwBbJg&ab_channel=AbrarTeli"
+                         
+                            data-rel="lightcase:myCollection"</a>
+    >*/}                  
+                            
+                          
+                        
                         </div>
                         <p>
                           We offer a variety of flats, including one, two, and

@@ -5,8 +5,13 @@ class Explore extends Component {
     let publicUrl = process.env.PUBLIC_URL + "/";
 
     return (
-      <div>
+      <div className="main  pt-100 pb-100">
         <div className="container">
+          <img
+            src={publicUrl + "assets/img/bg/room2.jpg"}
+            alt="Banner"
+            className="E_image"
+          />
           <div className="intro-text fl-wrap">
             <h2>
               Explore <br /> Your Dream World at Quarter!

@@ -136,8 +136,13 @@ class NavbarV3 extends Component {
                     <nav>
                       <div className="ltn__main-menu">
                         <ul>
+                        <li>
+                            <Link to="/">
+                              Home
+                            </Link>
+                          </li>
                           <li>
-                            <Link to="#">
+                            <Link to="/about">
                               About
                             </Link>
                           </li>
@@ -215,8 +220,11 @@ class NavbarV3 extends Component {
             </div>
             <div className="ltn__utilize-menu">
               <ul>
+              <li>
+                  <Link to="/">Home</Link>
+                </li>
                 <li>
-                  <Link to="#">About</Link>
+                  <Link to="/about">About</Link>
                 </li>
               
                 <li>

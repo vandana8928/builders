@@ -40,7 +40,7 @@ class Footer_v1 extends Component {
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
-        let imgattr = "Footer logo"
+       // let imgattr = "Footer logo"
 
         return (
 				<footer className="ltn__footer-area  ">
@@ -94,11 +94,10 @@ Kalyan - Shilphata Rd</p>
 						  <h4 className="footer-title"></h4>
 				            <div className="footer-menu go-top">
 				              <ul>
-							   <li><Link to="#">Home</Link></li>
-				                <li><Link to="#">About</Link></li>
+							   <li><Link to="/">Home</Link></li>
+				                <li><Link to="/about">About</Link></li>
 				                <li><Link to="/contact">Contact</Link></li>
-				                <li><Link to="/sections-compopnents/faq">FAQ</Link></li>
-				              
+				                <li><Link to="/faq">FAQ</Link></li>			              
 				              </ul>
 				            </div>
 				          </div>

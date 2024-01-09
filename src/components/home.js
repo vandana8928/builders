@@ -2,12 +2,10 @@ import React from "react";
 import Navbar from "./global-components/navbar-v4";
 import BannerV6 from "./section-components/banner-v6";
 import About from "./section-components/about";
-//import Featuresv1 from "./section-components/features-v1";
+
 import ServiceV1 from './section-components/service-v1';
 import Faq from "./section-components/faq-v1";
 import Content from "./section-components/content";
-
-import Explore from "./section-components/explore";
 
 import Map from "./section-components/map";
 import ProSlider from "./section-components/product-slider-v3";
@@ -29,9 +27,10 @@ const Home_V7 = () => {
       <Map></Map>
       <Content/>
       <ProSlider />
- <Explore/>
+
       <Testimonial />   
       {/*<CallToActionV1 />*/}
+    
       <Footer />
     </div>
   );
