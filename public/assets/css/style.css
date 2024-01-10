@@ -14175,7 +14175,7 @@ box-shadow:rgba(55, 54, 54, 0.28) 2px 2.732px 10px 2px;
   }
 }
 .about_img{
-  filter: hue-rotate(90deg);
+ 
   transition: transform 0.3s ease;
   border-radius: 10px;
 
@@ -14185,6 +14185,19 @@ box-shadow:rgba(55, 54, 54, 0.28) 2px 2.732px 10px 2px;
   transform: rotate(360deg);
 
 }
+.whatsapp_float{
+  position:fixed;
+  bottom:40px;
+  left: 75rem;
+}
+.whatsapp_float_btn{
+  height: 100px;
+  width: 85px;
+  border-radius: 25px;
+z-index: 10;
+}
+
+
 /* ----------------------------------------------------
     404 Area
 ---------------------------------------------------- */
