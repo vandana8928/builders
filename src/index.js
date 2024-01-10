@@ -16,6 +16,7 @@ import Privacy from "./components/privacy";
 import ServiceDetails from "./components/service-details";
 import About from "./components/about";
 import Faq from "./components/faq";
+import Error from "./components/404";
 
 class Root extends Component {
   render() {
@@ -39,6 +40,7 @@ class Root extends Component {
 
             <Route path="/login" component={Login} />
             <Route path="/register" component={Register} />
+            <Route path="*" component={Error} />
           </Switch>
         </div>
       </HashRouter>

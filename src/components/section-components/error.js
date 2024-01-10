@@ -14,7 +14,7 @@ class Error extends Component {
 					<div className="col-lg-12">
 					<div className="error-404-inner text-center">
 						<div className="error-img mb-30">
-						<img src={publicUrl+"assets/img/others/error-1.png"} alt="#" />
+						<img src={publicUrl+"assets/img/others/Error.png"} alt="#" height={400}/>
 						</div>
 						<h1 className="error-404-title d-none">404</h1>
 						<h2>Page Not Found!</h2>

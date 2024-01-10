@@ -17,8 +17,8 @@ class ContactInfo extends Component {
                 </div>
                 <h3>Email Address</h3>
                 <p>
-                  quartersales123@gmail.com <br />
-                  ramesh2453@gmail.com
+                abhishek@brandingcatalyst.net <br />
+                
                 </p>
               </div>
             </div>

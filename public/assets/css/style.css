@@ -18006,14 +18006,15 @@ box-shadow:rgba(55, 54, 54, 0.28) 2px 2.732px 10px 2px;
 }
 
 .btn-transparent {
-  background-color: transparent;
+  background-color:rgb(230 54 83);
   -webkit-box-shadow: var(--ltn__box-shadow-3);
   box-shadow: var(--ltn__box-shadow-3);
   border-color: #ddd;
+  border-radius: 20px;
 }
 .btn-transparent:hover {
-  background-color: rgb(230 54 83);
-  color: var(--white);
+  background-color: transparent;
+  color: var(--black);
 }
 
 .btn-round {
