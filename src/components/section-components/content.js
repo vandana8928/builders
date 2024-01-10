@@ -32,19 +32,13 @@ class F extends Component {
                       data-bs-parent="#accordion_2"
                     >
                       <div className="card-body">
-                        <div className="ltn__video-img alignleft">
-                          <img
-                            src={publicUrl + "assets/img/others/scanner.png"}
-                            alt="video" height={300}
-                          />
-                         {/* <a
-                            className="ltn__video-icon-2 ltn__video-icon-2-small ltn__video-icon-2-border----"
-                            href="https://www.youtube.com/watch?v=iCMQ7US1JEc&ab_channel=CodeEstate"
-                            data-rel="lightcase:myCollection"
-                          >
-                            <i className="fa fa-play" />
-    </a>*/}
-                        </div>
+                        {/* <div className="ltn__video-img alignleft"> */}
+                          {/* <img */}
+                            {/* src={publicUrl + "assets/img/others/scanner.png"} */}
+                            {/* alt="video" height={300} */}
+                          {/* /> */}
+                        {/*  */}
+                        {/* </div> */}
                         <p>
                         The project has been registered via Maharashtra RERA Registration Nos. P51900008345, P51900008962 available at maharera.mahaonline.gov.in under registered projects.
                         </p>

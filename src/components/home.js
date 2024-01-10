@@ -1,18 +1,13 @@
 import React from "react";
-import Navbar from "./global-components/navbar-v4";
-import BannerV6 from "./section-components/banner-v6";
+import Navbar from "./global-components/navbar";
+import BannerV6 from "./section-components/banner";
 import About from "./section-components/about";
-
 import ServiceV1 from './section-components/service-v1';
 import Faq from "./section-components/faq-v1";
 import Content from "./section-components/content";
-
-
 import Map from "./section-components/map";
 import ProSlider from "./section-components/product-slider-v3";
-
 import Testimonial from "./section-components/testimonial-v1";
-
 import Footer from "./global-components/footer";
 
 const Home_V7 = () => {
@@ -30,7 +25,6 @@ const Home_V7 = () => {
      {/*<Whatsapp/>*/}
       <Testimonial />   
       {/*<CallToActionV1 />*/}
-    
       <Footer />
     </div>
   );

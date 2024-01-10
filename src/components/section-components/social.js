@@ -10,10 +10,10 @@ class Social extends Component {
 
     return <div className="ltn__social-media">
 			<ul>
-				<li><a href="https://www.facebook.com/LodhaGroup/" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-				<li><a href="https://twitter.com/LODHA" title="Twitter"><i className="fab fa-twitter" /></a></li>
-				<li><a href="https://www.instagram.com/lodhagroup_india/" title="Instagram"><i className="fab fa-instagram" /></a></li>
-				<li><a href="https://www.lodhagroup.in/projects/residential-property-in-worli/world-one/about" title="Dribbble"><i className="fab fa-dribbble" /></a></li>
+				<li><a href="https://www.facebook.com/brandingcatalyst/" title="Facebook" className='facebook'><i className="fab fa-facebook-f" /></a></li>
+				<li><a href="https://twitter.com/_BCatalyst_" title="Twitter"><i className="fab fa-twitter" /></a></li>
+				<li><a href="https://www.instagram.com/branding_catalyst/" title="Instagram" className='insta'><i className="fab fa-instagram" /></a></li>
+				<li><a href="https://brandingcatalyst.net/" title="Dribbble" className='globe'><i className="fab fa-dribbble" /></a></li>
 			</ul>
 		</div>
         }

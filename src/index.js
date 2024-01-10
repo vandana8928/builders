@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/home";
-import Model from "./components/section-components/model-b";
+
 import F from "./components/section-components/content";
 import Contact from "./components/contact";
 import Amenities from "./components/amenities";
@@ -30,7 +30,7 @@ class Root extends Component {
             <Route path="/amenities" component={Amenities} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/location" component={Loction} />
-            <Route path="/model-b" component={Model} />
+            
             <Route path="/term-condition" component={Term} />
             <Route path="/privacy" component={Privacy} />
             <Route path="/service" component={Service} />
