@@ -3,8 +3,6 @@ import Navbar from './global-components/navbar-v4';
 import PageHeader from './global-components/page-header';
 import Gallery from "./section-components/gallery-v1";
 import ProSlider from "./section-components/product-slider-v3";
-import G from "./tab-menu/Gallery";
-
 import Footer from './global-components/footer';
 
 const Galleryv1 = () => {
@@ -16,7 +14,7 @@ const Galleryv1 = () => {
       
         <hr></hr>
         <ProSlider/>
-         <G/>
+    
         <Footer />
     </div>
 }

@@ -22,7 +22,7 @@ class Gallery extends Component {
 						</a>
 						<div className="ltn__img-slide-info">
 						<div className="ltn__img-slide-info-brief gp-top">
-							<h6>Hall</h6>
+							<h6>Room</h6>
 							
 						</div>
 					
@@ -31,12 +31,12 @@ class Gallery extends Component {
 					</div>
 					<div className="col-lg-12">
 					<div className="ltn__img-slide-item-4">
-						<a href={publicUrl+"assets/img/img-slide/g2.jpeg"} data-rel="lightcase:myCollection">
-						<img src={publicUrl+"assets/img/img-slide/g2.jpeg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
+						<a href={publicUrl+"assets/img/img-slide/club1.jpg"} data-rel="lightcase:myCollection">
+						<img src={publicUrl+"assets/img/img-slide/club1.jpg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
 						</a>
 						<div className="ltn__img-slide-info">
 						<div className="ltn__img-slide-info-brief gp-top">
-							<h6>The luxury crib</h6>
+							<h6>Club</h6>
 							
 						</div>
 						
@@ -45,17 +45,15 @@ class Gallery extends Component {
 					</div>
 					<div className="col-lg-12">
 					<div className="ltn__img-slide-item-4">
-						<a href={publicUrl+"assets/img/img-slide/g3.jpg"} data-rel="lightcase:myCollection">
-						<img src={publicUrl+"assets/img/img-slide/g3.jpg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
+						<a href={publicUrl+"assets/img/img-slide/garden.jpg"} data-rel="lightcase:myCollection">
+						<img src={publicUrl+"assets/img/img-slide/garden.jpg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
 						</a>
 						<div className="ltn__img-slide-info">
 						<div className="ltn__img-slide-info-brief gp-top">
-							<h6>The Best City</h6>
+							<h6>Garden</h6>
 							
 						</div>
-						<div className="btn-wrapper go-top">
-							<Link to="/portfolio-details" className="btn theme-btn-1 btn-effect-1 text-uppercase">Details</Link>
-						</div>
+						
 						</div>
 					</div>
 					</div>
@@ -66,7 +64,7 @@ class Gallery extends Component {
 						</a>
 						<div className="ltn__img-slide-info">
 						<div className="ltn__img-slide-info-brief gp-top">
-							<h6>constuction picture</h6>
+							<h6>Constuction</h6>
 							
 						</div>
 						
@@ -75,12 +73,54 @@ class Gallery extends Component {
 					</div>
 					<div className="col-lg-12">
 					<div className="ltn__img-slide-item-4">
-						<a href={publicUrl+"assets/img/img-slide/g3.jpg"} data-rel="lightcase:myCollection">
-						<img src={publicUrl+"assets/img/img-slide/g6.jpg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
+						<a href={publicUrl+"assets/img/img-slide/jogging.jpg"} data-rel="lightcase:myCollection">
+						<img src={publicUrl+"assets/img/img-slide/jogging.jpg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
 						</a>
 						<div className="ltn__img-slide-info">
 						<div className="ltn__img-slide-info-brief gp-top">
-							<h6>The balcony picture</h6>
+							<h6>Jogging Park</h6>
+							
+						</div>
+						
+						</div>
+					</div>
+					</div>
+					<div className="col-lg-12">
+					<div className="ltn__img-slide-item-4">
+						<a href={publicUrl+"assets/img/img-slide/gym.jpg"} data-rel="lightcase:myCollection">
+						<img src={publicUrl+"assets/img/img-slide/gym.jpg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
+						</a>
+						<div className="ltn__img-slide-info">
+						<div className="ltn__img-slide-info-brief gp-top">
+							<h6>Gym</h6>
+							
+						</div>
+						
+						</div>
+					</div>
+					</div>
+					<div className="col-lg-12">
+					<div className="ltn__img-slide-item-4">
+						<a href={publicUrl+"assets/img/img-slide/swimming.jpg"} data-rel="lightcase:myCollection">
+						<img src={publicUrl+"assets/img/img-slide/swimming.jpg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
+						</a>
+						<div className="ltn__img-slide-info">
+						<div className="ltn__img-slide-info-brief gp-top">
+							<h6>Swimming Pool</h6>
+							
+						</div>
+						
+						</div>
+					</div>
+					</div>
+					<div className="col-lg-12">
+					<div className="ltn__img-slide-item-4">
+						<a href={publicUrl+"assets/img/img-slide/club.jpeg"} data-rel="lightcase:myCollection">
+						<img src={publicUrl+"assets/img/img-slide/club.jpeg"} alt="gallery"  height={300} width={400} className="gallery_img"/>
+						</a>
+						<div className="ltn__img-slide-info">
+						<div className="ltn__img-slide-info-brief gp-top">
+							<h6>Community House</h6>
 							
 						</div>
 						
