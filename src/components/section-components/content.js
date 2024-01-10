@@ -46,9 +46,9 @@ class F extends Component {
                         RERA is an iconic act that aims to bring transparency and efficiency in the real estate sector, protect consumers, and fast track dispute resolution. It is an act that promotes good governance in the market, which helps customers get more information about projects and reduces the risk associated with the purchase
                         </p>
                         <p>
-                        The MahaRERA Registration Number is the mark of integrity, and all new Lodha Group projects are RERA compliant; see a list of our RERA projects here
+                        The MahaRERA Registration Number is the mark of integrity, and all new quarter Group projects are RERA compliant. 
                         <br/>
-                        To find out more about what is RERA, Click  Above.
+                       
                         </p>
                       </div>
                     </div>

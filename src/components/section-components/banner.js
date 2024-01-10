@@ -1,33 +1,44 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class BannerV6 extends Component {
+  render() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
 
-    render() {
+    return (
+      <div className="ltn__slider-area ltn__slider-4 position-relative  ltn__primary-bg">
+        <div className="ltn__slide-one-active----- slick-slide-arrow-1----- slick-slide-dots-1----- arrow-white----- ltn__slide-animation-active">
+          <video autoPlay muted loop id="myVideo">
+            <source
+              src={publicUrl + "assets/media/home.mp4"}
+              type="video/mp4"
+            />
+          </video>
 
-        let publicUrl = process.env.PUBLIC_URL+'/'
-
-    return  <div className="ltn__slider-area ltn__slider-4 position-relative  ltn__primary-bg">
-				<div className="ltn__slide-one-active----- slick-slide-arrow-1----- slick-slide-dots-1----- arrow-white----- ltn__slide-animation-active">
-
-				<video autoPlay muted loop id="myVideo">
-					<source src={publicUrl+"assets/media/home.mp4"} type="video/mp4" />
-				</video>
-
-				<div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-30" data-bs-bg={publicUrl+"assets/img/slider/41.jpg"}>
-					<div className="ltn__slide-item-inner text-center">
-					<div className="container">
-						<div className="row">
-						<div className="col-lg-12 align-self-center">
-							<div className="slide-item-car-dealer-form">
-							<div className="section-title-area ltn__section-title-2 text-center">
-								<h1 className="section-title  text-color-white pt-50">Find Your <span className="ltn__secondary-color-3" >Perfect</span> Home</h1>
-							<h2 className='text-color-white '>
-                                       Welcome to the <span className="ltn__secondary-color-3">world of luxury living  </span>
-                               A design<br className='pt-20'/> so unique, it was created for you</h2>
-							</div>
-							{/*<div className="ltn__car-dealer-form-tab">
+          <div
+            className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-30"
+            data-bs-bg={publicUrl + "assets/img/slider/41.jpg"}
+          >
+            <div className="ltn__slide-item-inner text-center">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12 align-self-center">
+                    <div className="slide-item-car-dealer-form">
+                      <div className="section-title-area ltn__section-title-2 text-center">
+                        <h1 className="  text-color-white">
+                          {" "}
+                          Welcome to the
+                          <span className="ltn__secondary-color-3">
+                            {" "}
+                            world of luxury living
+                          </span>{" "}
+                        </h1>
+                        <h1 className="text-color-white ">
+                          A design so unique, it was created
+                          <br /> for you
+                        </h1>
+                      </div>
+                      {/*<div className="ltn__car-dealer-form-tab">
 								<div className="ltn__tab-menu  text-uppercase text-center">
 								<div className="nav">
 									<a className="active show" data-bs-toggle="tab" href="#ltn__form_tab_1_1"><i className="fas fa-home" />Sale Home</a>
@@ -123,16 +134,17 @@ class BannerV6 extends Component {
 									</div>
 								</div>
 								</div>
-							</div> */}                                       
-							</div>
-						</div>
-						</div>
-					</div>
-					</div>
-				</div>
-				</div>
-			</div>
-        }
+							</div> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
-export default BannerV6
+export default BannerV6;

@@ -42,7 +42,7 @@ class AboutV2 extends Component {
             <div className="col-lg-6 align-self-center">
               <div className="about-us-img-wrap about-img-right">
                 <img
-                  src={publicUrl + "assets/img/others/about_sec.jpg"}
+                  src={publicUrl + "assets/img/others/about1.avif"}
                   alt="About Us"
                   height={500} className="about_img"
                 />
