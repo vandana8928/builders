@@ -7,6 +7,7 @@ import ServiceV1 from './section-components/service-v1';
 import Faq from "./section-components/faq-v1";
 import Content from "./section-components/content";
 
+
 import Map from "./section-components/map";
 import ProSlider from "./section-components/product-slider-v3";
 
@@ -19,15 +20,14 @@ const Home_V7 = () => {
     <div>
       <Navbar CustomClass="ltn__header-transparent gradient-color-2" />    
       <BannerV6 />    
-      <About />
-     
+      <About /> 
       <ServiceV1/>
       {/*<Featuresv1 customClass="ltn__feature-area section-bg-1 pt-120 pb-90 mb-120---" />  */}
       <Faq />
       <Map></Map>
       <Content/>
       <ProSlider />
-
+     {/*<Whatsapp/>*/}
       <Testimonial />   
       {/*<CallToActionV1 />*/}
     

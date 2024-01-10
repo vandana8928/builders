@@ -13688,7 +13688,7 @@ blockquote::before {
   margin-bottom: 35px;
 }
 .ltn__contact-address-item-3 .ltn__contact-address-icon img {
-  max-width: 80px;
+  width: 50px;
 }
 .ltn__contact-address-item-3:hover i {
   background-color: transparent;

@@ -6,7 +6,7 @@ class Register extends Component {
 
     render() {
 
-        let publicUrl = process.env.PUBLIC_URL+'/'
+       // let publicUrl = process.env.PUBLIC_URL+'/'
 
     return  <div className="ltn__login-area pb-110">
 				<div className="container">

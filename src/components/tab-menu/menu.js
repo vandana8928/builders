@@ -1,6 +1,6 @@
-//import React from "react";
+
 const Menu=[{
-    image:"/images/s5.jpg",
+    image: "assets/img/bg/room.jpeg",
     category:"room"
 
 },

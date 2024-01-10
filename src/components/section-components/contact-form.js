@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component ,useRef} from 'react';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
+import emailjs from '@emailjs/browser';
 
 class ContactForm extends Component {
 
 	componentDidMount() {
-
     	const $ = window.$;
     	
        	// Get the form.
@@ -55,6 +55,19 @@ class ContactForm extends Component {
     }
 
     render() {
+		const Email=()=>{
+			const form = useRef();
+		
+		  const sendEmail = (e) => {
+			e.preventDefault();
+		
+			emailjs.sendForm('service_qln6vn2', 'template_xbez7tp', form.current, 'QTbnzUJJAt5-1HP74')
+			  .then((result) => {
+				  console.log(result.text);
+			  }, (error) => {
+				  console.log(error.text);
+			  });
+		  };
 
 	let publicUrl = process.env.PUBLIC_URL+'/'
 
@@ -64,19 +77,19 @@ class ContactForm extends Component {
 					<div className="col-lg-12">
 					<div className="ltn__form-box contact-form-box box-shadow white-bg">
 						<h4 className="title-2">Get In Touch</h4>
-						<form id="contact-form" action={publicUrl+"mail.php"} method="post">
+						<form id="contact-form" action={publicUrl+"mail.php"} method="post"  ref={form} onSubmit={sendEmail} >
 						<div className="row">
 							<div className="col-md-6">
 							<div className="input-item input-item-name ltn__custom-icon">
-								<input type="text" name="name" placeholder="Enter your name" />
+								<input type="text" name="user_name" placeholder="Enter your name" />
 							</div>
 							</div>
 							<div className="col-md-6">
 							<div className="input-item input-item-email ltn__custom-icon">
-								<input type="email" name="email" placeholder="Enter email address" />
+								<input type="email" name="user_email" placeholder="Enter email address" />
 							</div>
 							</div>
-							<div className="col-md-6">
+							{/*<div className="col-md-6">
 							<div className="input-item" >
 								<select className="nice-select" name="service">
 								<option>Select Service Type</option>
@@ -93,7 +106,7 @@ class ContactForm extends Component {
 							<div className="input-item input-item-phone ltn__custom-icon">
 								<input type="text" name="phone" placeholder="Enter phone number" />
 							</div>
-							</div>
+		</div>*/}
 						</div>
 						<div className="input-item input-item-textarea ltn__custom-icon">
 							<textarea name="message" placeholder="Enter message" defaultValue={""} />
@@ -111,5 +124,5 @@ class ContactForm extends Component {
 			</div>
         }
 }
-
-export default ContactForm
+}
+export default ContactForm;

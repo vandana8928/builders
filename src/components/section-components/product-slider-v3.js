@@ -29,7 +29,7 @@ class ProductSliderV3 extends Component {
 			            <h6><Link to="/contact">Worli Mumbai</Link></h6>
 						<h6>Prossession Status:<b>Ready to move in</b> </h6>
 						<h6>Topology: <b>2 & 4 BHK</b></h6>
-						<h6>Price: <b><i class="fas fa-rupee-sign"></i> &nbsp;1 Cr.+</b></h6>
+						<h6>Price: <b><i className="fas fa-rupee-sign"></i> &nbsp;1 Cr.+</b></h6>
 			          
 			            <div className="search-by-place-btn">
 			              <Link to="/product-details">View Detail <i className="flaticon-right-arrow" /></Link>
@@ -47,7 +47,7 @@ class ProductSliderV3 extends Component {
 			            <h6><Link to="/contact">Panvel,New mumbai</Link></h6>
 						<h6>Prossession Status:<b>Ready to move in</b> </h6>
 						<h6>Topology: <b>2 &  3 BHK</b></h6>
-						<h6>Price: <b><i class="fas fa-rupee-sign"></i>&nbsp; 1.8 Cr.+</b></h6>
+						<h6>Price: <b><i className="fas fa-rupee-sign"></i>&nbsp; 1.8 Cr.+</b></h6>
 			            <div className="search-by-place-btn">
 			              <Link to="/product-details">View Detail <i className="flaticon-right-arrow" /></Link>
 			            </div>
@@ -83,7 +83,7 @@ class ProductSliderV3 extends Component {
 			            <h6><Link to="/contact">Badlapur, Maharashtra</Link></h6>
 						<h6>Prossession Status:<b>Ready to move in</b> </h6>
 						<h6>Topology: <b>2 & 3 BHK</b></h6>
-						<h6>Price: <b><i class="fas fa-rupee-sign"></i>&nbsp;2.3 Cr.+</b></h6>
+						<h6>Price: <b><i className="fas fa-rupee-sign"></i>&nbsp;2.3 Cr.+</b></h6>
 			           
 			            <div className="search-by-place-btn">
 			              <Link to="/product-details">View Detail <i className="flaticon-right-arrow" /></Link>

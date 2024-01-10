@@ -3,7 +3,7 @@ import React, { Component } from "react";
 
 class Term extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
+    //let publicUrl = process.env.PUBLIC_URL + "/";
 
     return (
       <div className="ltn__faq-area mb-100">

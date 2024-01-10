@@ -62,11 +62,12 @@ class FaqV1 extends Component {
                     >
                       <div className="card-body">
                         <div className="ltn__video-img alignleft">
-                          <img
+                          <img 
                             src={publicUrl + "assets/img/bg/room.jpeg"}
                             alt="video popup bg"
-                          />
-                         {/*} <a
+                           />
+                         
+                         {/* <a
                             className="ltn__video-icon-2 ltn__video-icon-2-small ltn__video-icon-2-border----"
                             href="https://www.youtube.com/watch?v=I-wPSZwBbJg&ab_channel=AbrarTeli"
                          
