@@ -17,6 +17,7 @@ import ServiceDetails from "./components/service-details";
 import About from "./components/about";
 import Faq from "./components/faq";
 import Error from "./components/404";
+import Whatsapp from "./components/section-components/whatsapp";
 
 class Root extends Component {
   render() {
@@ -37,6 +38,7 @@ class Root extends Component {
             <Route path="/service" component={Service} />
             <Route path="/service-details" component={ServiceDetails} />
             <Route path="/section-components/f" component={F} />
+            <Route path="/section-components/whatsapp" component={Whatsapp} />
 
             <Route path="/login" component={Login} />
             <Route path="/register" component={Register} />

@@ -63,7 +63,7 @@ class Login extends Component {
 						<div className="row">
 							<div className="col-12">
 							<div className="modal-product-info text-center">
-								<h4>FORGET PASSWORD?</h4>
+								<h4>Forget Password?</h4>
 								<p className="added-cart"> Enter you register email.</p>
 								<form action="#" className="ltn__form-box">
 								<input type="text" name="email" placeholder="Type your register email*" />

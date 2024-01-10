@@ -9,6 +9,7 @@ import Map from "./section-components/map";
 import ProSlider from "./section-components/product-slider-v3";
 import Testimonial from "./section-components/testimonial-v1";
 import Footer from "./global-components/footer";
+import Whatsapp from "./section-components/whatsapp";
 
 const Home_V7 = () => {
   return (
@@ -25,6 +26,7 @@ const Home_V7 = () => {
      {/*<Whatsapp/>*/}
       <Testimonial />   
       {/*<CallToActionV1 />*/}
+      <Whatsapp/>
       <Footer />
     </div>
   );
