@@ -64,7 +64,7 @@ class FaqV1 extends Component {
                         <div className="ltn__video-img alignleft">
                           <img 
                             src={publicUrl + "assets/img/bg/room.jpeg"}
-                            alt="video popup bg"
+                            alt="video popup bg" className="faq_img"
                            />
                          
                          {/* <a
@@ -200,7 +200,7 @@ class FaqV1 extends Component {
                     <img
                       src={publicUrl + "assets/img/bg/room3.jpg"}
                       alt="Banner "
-                      height={270}
+                      height={270} className="faq_img"
                     />
                   </Link>
                 </div>
@@ -210,7 +210,7 @@ class FaqV1 extends Component {
                     <img
                       src={publicUrl + "assets/img/bg/room2.jpg"}
                       alt="Banner"
-                      height={270}
+                      height={270} className="faq_img"
                     />
                   </Link>
                 </div>

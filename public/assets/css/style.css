@@ -14198,7 +14198,9 @@ box-shadow:rgba(55, 54, 54, 0.28) 2px 2.732px 10px 2px;
  
 
 }
-
+.faq_img:hover{
+  transform: rotate(360deg);
+}
 .whatsapp_float{
   position:fixed;
   bottom:40px;
