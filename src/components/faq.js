@@ -9,7 +9,7 @@ import Footer from './global-components/footer';
 const FaqV1 = () => {
     return <div>
         <Navbar />
-        <PageHeader headertitle="Frequently asked questions" subheader="FAQ" />
+        <PageHeader headertitle="Frequently asked questions" subheader="FAQ'S" />
         <Faq />
         <Counter />
         <Footer />
